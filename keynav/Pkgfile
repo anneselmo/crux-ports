@@ -1,0 +1,18 @@
+# Description: Retire your mouse 
+# URL: http://www.semicomplete.com/projects/keynav
+# Maintainer: Anselmo, another gnome at tuta dot io
+# Depends on: xdotool glib 
+
+name=keynav
+version=0.20110708.0
+release=1
+source=(https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/semicomplete/$name-$version.tar.gz)
+
+
+build() {
+    cd $name-$version
+    make
+    mkdir bin
+    mv keynav bin/ 
+    cp -r bin $PKG
+}

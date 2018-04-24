@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/bri.pub
+RWRcTb2dgGQj4i9T8l/CXa9HXkvC7Xis967gULk7Iyh/CSPlEqrQ6yjp4SX8ZW3fMVOMBDBPJ9e+2qY/8WhGBzpF5A3D+AtPbAo=
+SHA256 (Pkgfile) = e236ca1f32fdd22afa68d6f8b6770094edb63de63a41422a726cccd213de3e03
+SHA256 (.footprint) = 69a8022a6abddfe9ef43a745bf8e228b676c03a197dcc7a2d94946f9a815c6a8
+SHA256 (ratpoison-1.4.9.tar.xz) = d98fa4be025ecca453c407ff311ab3949f29f20d6d8abedf8f0716b85fc8d1f1

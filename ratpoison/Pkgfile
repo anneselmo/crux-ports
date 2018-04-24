@@ -1,0 +1,14 @@
+# Description: Ratpoison is a simple Window Manager with no fat library dependencies, no fancy graphics, no window decorations, and no rodent dependence
+# URL: http://nongnu.org/ratpoison/
+# Packager: Anselmo, anothergnome at tuta dot io
+# Depends on: 
+
+name=ratpoison
+version=1.4.9
+release=1
+source=(http://download.savannah.nongnu.org/releases/$name/$name-$version.tar.xz)
+build() {
+	cd $name-$version
+	./configure 
+	make DESTDIR=$PKG install
+}
