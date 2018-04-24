@@ -1,0 +1,28 @@
+# Description: Erlang build tool that makes it easy to compile and test Erlang applications and releases
+# URL:  https://github.com/erlang/rebar3
+# Maintainer:  Anselmo, another gnome at tuta dot io
+# Depends on:  erlang
+
+name=rebar3
+version=git-35fb67523d784927a291fb464da4b36c6004470c
+release=1
+sversion=35fb67523d784927a291fb464da4b36c6004470c
+source=()
+
+gitsource=https://github.com/erlang/rebar3
+
+build() {
+	cd $PKGMK_SOURCE_DIR
+	
+	if cd $name; then
+		git reset --hard
+		git pull $gitsource
+	else
+		git clone $gitsource $name
+		cd $name
+	fi
+	
+	git checkout $sversion
+    ./bootstrap	
+    install -Dm0755 $name $PKG/usr/bin/$name
+}

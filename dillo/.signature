@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/bri.pub
+RWRcTb2dgGQj4jcOCiiW2eQyZwLmyoU5iXtxg03AIiDVgjHscg1UfAcRVq5GVN9+4Y4vk22KxSMNLIO/QuOrHkKce1D3lP1VQQ8=
+SHA256 (Pkgfile) = 7768d35109eae305c5b728c204997f0bcdd0efe71697dab8b3b6deda0d56dab7
+SHA256 (.footprint) = 342d8f6f3ff1568f0aa04e6c4137601fdf296decd9b1b9aab576f1245fca9f0e
+SHA256 (dillo-3.0.5.tar.bz2) = db1be16c1c5842ebe07b419aa7c6ef11a45603a75df2877f99635f4f8345148b

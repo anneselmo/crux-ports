@@ -1,0 +1,17 @@
+# Description: The fast and light webbrowser
+# URL: https://www.dillo.org
+# Packager: Anselmo, anothergnome at tuta dot io
+# Depends on: fltk
+
+name=dillo
+version=3.0.5
+release=1
+source=(https://www.dillo.org/download/$name-$version.tar.bz2)
+build() {
+	cd $name-$version
+	./configure \
+		--enable-ssl \
+        --enable-ipv6
+	 
+	make DESTDIR=$PKG install
+}
