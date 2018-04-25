@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/bri.pub
+RWRcTb2dgGQj4ph49dZoMkQ596mIvYtcX8iLONDOdillMbUvd4CyDr7lZ9RqB/E8+lrd+ox89aTR9r0Un6e2YQi48WcPUODB7gY=
+SHA256 (Pkgfile) = 32e83369a26d3f926f85b49e386c264a2e6f8b9809f3bf8cb1ceff518fa53638
+SHA256 (.footprint) = a4849a7305a367b47b648de1b21b64ce7fd55b342035e918492ccab05af32b81
+SHA256 (shadow-4.2.1.tar.xz) = 3b0893d1476766868cd88920f4f1231c4795652aa407569faff802bcda0f3d41
