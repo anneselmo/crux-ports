@@ -1,6 +1,7 @@
 # Description: script passordendring
 # URL: http://pkg-shadow.alioth.debian.org/
-# Maintainer: Maja Weir
+# Maintainer: Anselmo, another gnome at tuta dot io
+# DEpends on:
 
 name=chpasswd
 version=4.2.1
