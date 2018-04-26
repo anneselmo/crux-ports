@@ -14,4 +14,5 @@ build() {
 
 	make
 	make DESTDIR=$PKG install
+    mv $PKG/usr/local/* $PKG/usr/
 }
