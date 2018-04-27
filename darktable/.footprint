@@ -121,7 +121,6 @@ drwxr-xr-x	root/root	usr/lib64/darktable/plugins/lighttable/
 -rwxr-xr-x	root/root	usr/lib64/darktable/plugins/lighttable/libmodulegroups.so
 -rwxr-xr-x	root/root	usr/lib64/darktable/plugins/lighttable/libmodulelist.so
 -rwxr-xr-x	root/root	usr/lib64/darktable/plugins/lighttable/libnavigation.so
--rwxr-xr-x	root/root	usr/lib64/darktable/plugins/lighttable/libprint_settings.so
 -rwxr-xr-x	root/root	usr/lib64/darktable/plugins/lighttable/libratings.so
 -rwxr-xr-x	root/root	usr/lib64/darktable/plugins/lighttable/librecentcollect.so
 -rwxr-xr-x	root/root	usr/lib64/darktable/plugins/lighttable/libselect.so
@@ -135,7 +134,6 @@ drwxr-xr-x	root/root	usr/lib64/darktable/views/
 -rwxr-xr-x	root/root	usr/lib64/darktable/views/libdarkroom.so
 -rwxr-xr-x	root/root	usr/lib64/darktable/views/libknight.so
 -rwxr-xr-x	root/root	usr/lib64/darktable/views/liblighttable.so
--rwxr-xr-x	root/root	usr/lib64/darktable/views/libprint.so
 -rwxr-xr-x	root/root	usr/lib64/darktable/views/libslideshow.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/appdata/
