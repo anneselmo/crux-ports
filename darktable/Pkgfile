@@ -1,6 +1,6 @@
 # Description: open source photography workflow application and raw developer
 # URL: http://www.darktable.org
-# Maintainer: #teatime (irc.kyber.io), teatime at kyber dot io
+# Maintainer: anselmo, another gnome at tuta dot io
 # Depends on: librsvg lcms2 exiv2 openexr lensfun lua52 pugixml
 
 name=darktable
