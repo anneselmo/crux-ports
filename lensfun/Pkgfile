@@ -1,0 +1,18 @@
+# Description: library to correct optical lens defects and lens database
+# URL: https://sourceforge.net/projects/lensfun/files/
+# Maintainer: #teatime (irc.kyber.io), teatime at kyber dot io
+
+name=lensfun
+version=0.3.2
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  mkdir build
+  cd build
+  cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr ..
+  make
+  make DESTDIR=$PKG install
+}
+
