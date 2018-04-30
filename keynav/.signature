@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/bri.pub
-RWRcTb2dgGQj4jGUbn0SkJ5ymeqP4dQAOQ3zoG/aHy3132gsYq0JXQU//cuRaspPbeJ1RWdlQ+8y9upSXozIr0N+69xtDMQeFwU=
+RWRcTb2dgGQj4mMUDQPjT/14UtT24UNCtT5NFozpyOWaOvtfCyxA7ihOUYS21b0QKPWGkfynK2xuCwZsNXLSiC36gCcCqMrEuwI=
 SHA256 (Pkgfile) = e3d80e7e9e66024acc71be1c3006a07461c122ecd37d7b3ddd5ea50ac61b1004
+SHA256 (.footprint) = 5322d4e65556ce0fa1130d3e4e66eeda8f9968f7d844431c05af5c55e7c73770
 SHA256 (keynav-0.20110708.0.tar.gz) = 1f39c7181bf2f6185946afc35bdcca28ec15fed012a4b57bef57fb1125943fbe
