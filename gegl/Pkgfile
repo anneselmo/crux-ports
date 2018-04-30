@@ -1,0 +1,17 @@
+# Description: graph based image processing framework
+# URL: http://gegl.org
+# Packager: Anselmo, another gnome at tuta dot io
+# Depends on: babl gtk intltool libsdl json-glib
+# Note: May not work with some recent ffmegs
+
+name=gegl
+version=0.4.0
+release=1
+source=(http://ftp.gimp.org/pub/$name/0.4/$name-$version.tar.bz2)
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr --disable-docs
+  make
+  make DESTDIR=$PKG install
+  rm -r $PKG/usr/share/locale
+}

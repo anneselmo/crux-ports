@@ -1,0 +1,19 @@
+# Description: Dynamic, any to any, pixel format translation library
+# URL: http://gegl.org/babl
+# Maintainer: Anselmo, another gnome at tuta dot io
+# Packager: Thomas Penteker, tek at serverop dot de
+# Packager: Simone Rota, sip at crux dot nu
+# Depends on:
+
+name=babl
+version=0.1.46
+release=1
+source=(http://ftp.gtk.org/pub/babl/0.1/$name-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+
+  ./configure --prefix=/usr --disable-docs
+  make
+  make DESTDIR=$PKG install
+}

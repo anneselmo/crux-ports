@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/bri.pub
+RWRcTb2dgGQj4sFeLruIgoX4iAwvzy7yOv9ovdOeCDwNf8d7V4eP/8eZejnWJI6j4tUFnVLy0PNZA35NFyrqJQ3qCa9Csw2GXAc=
+SHA256 (Pkgfile) = c5103f6fde5b65a70065aa6ddfd6f5004279460ea2b9bc0ea70858d99f2d2f40
+SHA256 (.footprint) = 979c28210cf23077adad349fb6b60f43488589c3b812d527e03bff5fab99b4d9
+SHA256 (babl-0.1.42.tar.bz2) = 6859aff3d7210d1f0173297796da4581323ef61e6f0c1e1c8f0ebb95a47787f1

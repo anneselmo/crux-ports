@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/bri.pub
+RWRcTb2dgGQj4jnUvBbiXjxVlMNTpk1i9SFXtVXcyb+Frd3LufG1p0UsnmcGTEwYwjmcw0p5TgsMSn4StTDFo29J2eNyja6c3gg=
+SHA256 (Pkgfile) = 2a28afc9358066097947c55c523aff7445eb4f52c7ad87afba3cda821060eeca
+SHA256 (.footprint) = 403b0b986d6ac35473b8eb38f294b476e49e326a4e943ef6300e70b4136b26e6
+SHA256 (gegl-0.4.0.tar.bz2) = d04d2bfa0ff5a4bcfe7566f7418929a9c80f0109fa248ea4ff19538b3e99f0c5
