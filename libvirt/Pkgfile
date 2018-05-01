@@ -1,0 +1,30 @@
+# Description: The virtualization API
+# URL:		     http://libvirt.org/
+# Maintainer:	Anselmo, another gnome at tuta dot io 
+# Depends on:  polkit xorg-libpciaccess libnl gnutls libgcrypt dnsmasq dmidecode iptables ebtables pm-utils bridge-utils
+
+name=libvirt
+version=4.2.0
+release=1
+source=(https://libvirt.org/sources/${name}-${version}.tar.xz)
+
+build() {
+  cd ${name}-${version}
+  
+  ./configure \
+    --prefix=/usr \
+    --disable-nls \
+    --without-xen \
+    --without-uml \
+    --without-openvz \
+    --without-yajl \
+    --without-wireshark-dissector \
+    --with-qemu
+
+  make
+  make DESTDIR=${PKG} install
+
+  # Clean up html docs
+  rm -rf ${PKG}/usr/share/doc
+}
+
