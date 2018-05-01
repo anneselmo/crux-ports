@@ -1,0 +1,21 @@
+# Description: SVG rendering library with cairo backend
+# URL: https://wiki.gnome.org/LibRsvg
+# Maintainer: Anselmo, another gnome at tuta dot io
+# Depends on: gtk3 libcroco vala rust
+name=librsvg
+version=2.42.3
+release=1
+source=(ftp://ftp.gnome.org/pub/gnome/sources/$name/${version%.*}/$name-$version.tar.xz)
+
+build() {
+  cd $name-$version
+
+  ./configure --prefix=/usr \
+              --disable-static \
+              --disable-gtk-theme \
+              --disable-gtk-doc
+
+  make
+  make DESTDIR=$PKG install
+  rm -r $PKG/usr/share/gtk-doc
+}
