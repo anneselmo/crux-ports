@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/bri.pub
+RWRcTb2dgGQj4vZOFiQnBLy1G3xTbQ3iVMi8TESU8rj9dSkab+6fZQEpl7xL7z4yeK+lm53lIwpHxL2+ZZo/fEKilRT7S6p5bg0=
+SHA256 (Pkgfile) = 070ce8f0c37814614f03b82a1b221a52475834a0e3e04846dd277170755427b2
+SHA256 (.footprint) = 1ed75f23e59e4960a87a42e0439a08ddf1eefc520db8d48b20c1c6bd0444ad73
+SHA256 (libvirt-4.2.0.tar.xz) = 3a98ea4417811a24d2cf7be776c102919ae6376d28820b153686b018cb8f015b
