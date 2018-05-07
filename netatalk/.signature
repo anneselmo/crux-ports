@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/bri.pub
+RWRcTb2dgGQj4jH+knillGzbG2dVEwnjH2ez1xErHcH1OXAt75OYOQwwpj3ucejkM6HhANn6yAnwGL71RJYx5tgA6u9NxMrsago=
+SHA256 (Pkgfile) = c32a507b20b487db8605a681b09b2b1e67af8868e7f693e4bbb213a9a52c06ca
+SHA256 (.footprint) = 1155c6b33523133f1600a85f488bc7d4d697702aaa1d2f675ea063976b304fb0
+SHA256 (netatalk-3.1.11.tar.bz2) = 3434472ba96d3bbe3b024274438daad83b784ced720f7662a4c1d0a1078799a6
+SHA256 (rc.netatalk) = 8900e96dc05ff98d60f81c4cfef93fc88c2bd429f8e68d201a97d9f63bef7e55

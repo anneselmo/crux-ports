@@ -1,0 +1,27 @@
+# Description: Netatalk is a freely-available Open Source AFP fileserver.
+# URL: http://netatalk.sourceforge.net/
+# Maintainer: Anselmo, another gnome at tuta dot io
+# Packager: Syl, syl at clyl dot net
+# Depends on: db libgcrypt libevent
+
+name=netatalk
+version=3.1.11
+release=1
+source=(http://prdownloads.sourceforge.net/$name/$name-$version.tar.bz2 rc.netatalk)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--mandir=/usr/share/man \
+		--sysconfdir=/etc \
+		--with-libevent=no \
+		--with-dbus-sysconf-dir=/usr/etc/dbus-1/system.d
+	make
+	make DESTDIR=$PKG install
+
+	install -D -m 755 $SRC/rc.netatalk $PKG/etc/rc.d/netatalk
+
+	rm $PKG/usr/var/netatalk/README $PKG/usr/var/netatalk/CNID/README
+	rm -rf $PKG/usr/share/doc
+}
