@@ -1,0 +1,19 @@
+# Description: GNU Unifont Glyphs
+# URL:         http://unifoundry.com/unifont.html
+# Packager:    Anselmo, another gnome at tuta dot io
+# Depends on:  fontconfig
+
+name=ttf-unifont
+version=10.0.07
+release=1
+source=(http://unifoundry.com/pub/unifont-10.0.07/font-builds/unifont-$version.ttf)
+
+build() {
+   cd $SRC
+
+   # Prepare destination directory
+   install -d -m 755 "${PKG}/usr/share/fonts/TTF"
+
+   # Install fonts and license
+   install -m 644 *.ttf "${PKG}/usr/share/fonts/TTF"
+}
