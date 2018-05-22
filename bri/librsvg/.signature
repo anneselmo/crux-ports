@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/bri.pub
-RWRcTb2dgGQj4oEm4Xee3HrcITrX9dWqE8TUAkqcspS9OSH7rG13CHMgSPFDyjYoQR+6arEKgr5zTPUwMzpexv+AuS7ra8D7cgM=
+RWRcTb2dgGQj4jRCOSbR4p4VOLhLsDUgIjnNhA4IO03JusKU7C0Pmhc0mPHOSVCYjREnJ0Sjl0gP8FUJcZY/9GzBv0uhYsHVfgk=
 SHA256 (Pkgfile) = a1c9128088775faf682cc1bf9c3ff1f80b11ed8c17ce9ff0b96e3de5b123efd3
+SHA256 (.footprint) = 675e06d03d8a18796cea27600fcbb790cbed508be3010da62a73c5d7a2f1dd2a
 SHA256 (librsvg-2.42.3.tar.xz) = 704f2c44b9b170fc5498de36a161d01ca8f584ba9c42654b98565a7b7bcbe657
