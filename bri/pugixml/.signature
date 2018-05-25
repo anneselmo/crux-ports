@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/bri.pub
+RWRcTb2dgGQj4tQcvOyrAdD0aVSB8ufPSS+HoZkZ7v9DQBh3Gf6M64gpKD+5PYPKP/Fx8lL2bcTCxpGgVOQDejePVVcb4hgkbA0=
+SHA256 (Pkgfile) = e0c22237dfeda2602092b1a32bc90c50e01983f26e677a39c169064985a5d6a7
+SHA256 (.footprint) = 4f7a99159d13c42b02d3db91100d1f5a7a90ebc6c4f914f55774f6dc83417b38
+SHA256 (pugixml-1.9.tar.gz) = d156d35b83f680e40fd6412c4455fdd03544339779134617b9b28d19e11fdba6
