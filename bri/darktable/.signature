@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/bri.pub
-RWRcTb2dgGQj4iRDguDeWA12sU4KiTE0Q8M6ztDwF5xs0l84tPaz0uoN0mKyMChLAsr2Kmcaas76KXgcO0rRHmizkaE4IJdDlAM=
-SHA256 (Pkgfile) = 71b6e1e132583571da0dbb16238baef4adbe87c74ed431cf83e252b9b2cb1146
+RWRcTb2dgGQj4oYkafUM/dCcxk2sKjGi9HFt2HbNqrpgRYTOkKhzfsskt6Q+BQ91B5vlyoEm7i9zR1Tv90Ei1uLlJoawEhGefQI=
+SHA256 (Pkgfile) = 5f19100cb37b6b3f98669d07f3f91df1177ad016a377338ce386a4556857dc0a
 SHA256 (.footprint) = db3cda57b1d7d4e99f05f42ab8086fadfb068072fd0f477f36a2be4fe29003f1
 SHA256 (darktable-2.4.3.tar.xz) = 1dc5fc7bd142f4c74a5dd4706ac1dad772dfc7cd5538f033e60e3a08cfed03d3

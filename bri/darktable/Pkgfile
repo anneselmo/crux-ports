@@ -1,7 +1,7 @@
 # Description: open source photography workflow application and raw developer
 # URL: http://www.darktable.org
 # Maintainer: anselmo, another gnome at tuta dot io
-# Depends on: librsvg lcms2 exiv2 openexr lensfun lua52 pugixml iso-codes lua53 libexif llvm
+# Depends on: librsvg lcms2 exiv2 openexr lensfun lua52 pugixml iso-codes lua53 libexif llvm libsecret graphicsmagic
 
 name=darktable
 version=2.4.3
