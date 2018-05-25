@@ -1,0 +1,24 @@
+# Description: The swiss army knife of image processing.
+# URL:         http://www.graphicsmagick.org
+# Maintainer:  Anselmo, another gnome at tuta dot io
+# Depends on:  libxml2 freetype libwebp
+
+name=graphicsmagick
+version=1.3.29
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/GraphicsMagick-$version.tar.xz)
+
+build() {
+	cd GraphicsMagick-$version
+
+	./configure \
+		--prefix=/usr \
+		--disable-static \
+		--enable-shared \
+		--enable-magick-compat
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}
