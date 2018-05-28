@@ -1,0 +1,30 @@
+# Description: OpenAFS is an open source implementation of the AFS distributed filesystem
+# URL: openafs.org
+# Packager: Anselmo, anothergnome at tuta dot io
+# Depends on: 
+
+name=openafs
+version=1.6.22.3
+release=1
+source=(http://www.openafs.org/dl/$name/$version/$name-$version-src.tar.gz)
+build() {
+    cd $name-$version
+    case `uname -m` in
+        "x86_64") sysname=amd64_linux26 ;;
+        "armv7h") sysname=arm_linux26 ;;
+        "i686") sysname=i386_linux26 
+    esac
+    echo $sysname
+    ./configure --prefix=/usr \
+        --sysconfdir=/etc \
+        --sbindir=/usr/bin \
+        --libexecdir=/usr/lib \
+        --disable-fuse-client \
+        --disable-kernel-module \
+        --without-swig \
+        --with-afs-sysname=$sysname \
+
+    make
+
+    make DESTDIR=$PKG install
+}
