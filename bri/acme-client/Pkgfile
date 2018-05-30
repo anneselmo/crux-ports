@@ -1,0 +1,15 @@
+# Description:  A straightforward, open source implementation in C that isolates each step of the sequence. 
+# URL: https://kristaps.bsd.lv/acme-client/
+# Packager: Anselmo, anothergnome at tuta dot io
+# Depends on: libbsd libseccomp libressl
+
+
+name=acme-client-portable
+version=0.1.16
+release=1
+source=(https://kristaps.bsd.lv/acme-client/snapshots/$name.tgz)
+build() {
+	cd $name-$version
+    make
+	make DESTDIR=$PKG install
+}
