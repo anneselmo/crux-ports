@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/bri.pub
+RWRcTb2dgGQj4u5Iy21bG2QpnshqecHfeJO7XCHxOYv80SDS5vSWD6YGSolxsOT04eLT/HD0H3b+8pUyvonu6MJq0suMESJBkQk=
+SHA256 (Pkgfile) = 6496891e917de8736bc9bc255aa292fb0e768302a0c172e844d54f74748fbaf9
+SHA256 (.footprint) = ce77f6d859590e99fc60b9f450ab87b2a4ffd736b936b8dee4b983f57ae354d8
+SHA256 (libressl-2.7.3.tar.gz) = 16c70d8fe1de6e9bedea0d67804b55f3894717693a05ed45e15e0e2f939c2795
